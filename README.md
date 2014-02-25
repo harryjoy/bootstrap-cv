@@ -5,7 +5,7 @@ A simple CV made with Twitter Bootstrap.
 
 ============
 
-## Credits
+## Made using followings:
 
  * [Twitter Bootstrap](http://getbootstrap.com/)
  * [gauge.js](http://bernii.github.io/gauge.js/)
