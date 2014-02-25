@@ -1,55 +1,919 @@
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <title>Bootstrap-cv by harryjoy</title>
-    <link rel="stylesheet" href="stylesheets/styles.css">
-    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="javascripts/main.js"></script>
-    <!--[if lt IE 9]>
-      <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Harsh Raval (My Self - Bootstrap CV)</title>
+
+<link href='http://fonts.googleapis.com/css?family=Gabriela' rel='stylesheet' type='text/css'>
+<!-- Bootstrap -->
+<link href="stylesheets/bootstrap.min.css" rel="stylesheet">
+<link href="stylesheets/main.css" rel="stylesheet">
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+</head>
+<body>
+	<div class="navbar navbar-default navbar-fixed-top" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse"
+					data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span> <span
+						class="icon-bar"></span> <span class="icon-bar"></span> <span
+						class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">My Self</a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="#main"><span class="glyphicon glyphicon-home"></span></a>
+					</li>
+					<li><a href="#summary">Profile</a>
+					</li>
+					<li><a href="#education">Education</a>
+					</li>
+					<li><a href="#work">Work</a>
+					</li>
+					<li><a href="#skills">Skills</a>
+					</li>
+					<li><a href="#note-worthy">Extra</a>
+					</li>
+					<li><a href="#contact">Conact</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">Cool!</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</div>
 
-  </head>
-  <body>
+	<div id="main" class="jumbotron main-header">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<img src="images/user.png" alt="My Self" class="img-thumbnail my-image">
+					<h1>My Self</h1>
+					<p>Product Manager<br/> <em>@ MyThemes Pvt. Ltd.</em></p>
+				</div>
+				<div class="col-lg-6">
+					<h2>&nbsp;</h2>
+					<p>A cool line to say something about my self that will blow others mind!</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container marketing">
+		<div class="row headers-row">
+			<div class="col-lg-2 central">
+				<a href="#summary">
+					<span class="glyphicon glyphicon-leaf head-image green img-rounded"></span>
+					<h2 class="head-image-text">Profile</h2>
+				</a>
+			</div>
+			<div class="col-lg-2 central">
+				<a href="#education">
+					<span class="glyphicon glyphicon-book head-image yellow img-rounded"></span>
+					<h2 class="head-image-text">Education</h2>
+				</a>
+			</div>
+			<div class="col-lg-2 central">
+				<a href="#work">
+					<span class="glyphicon glyphicon-wrench head-image blue img-rounded"></span>
+					<h2 class="head-image-text">Work</h2>
+				</a>
+			</div>
+			<div class="col-lg-2 central">
+				<a href="#skills">
+					<span class="glyphicon glyphicon-stats head-image light-blue img-rounded"></span>
+					<h2 class="head-image-text">Skills</h2>
+				</a>
+			</div>
+			<div class="col-lg-2 central">
+				<a href="#note-worthy">
+					<span class="glyphicon glyphicon-edit head-image purple img-rounded"></span>
+					<h2 class="head-image-text">Extra</h2>
+				</a>
+			</div>
+			<div class="col-lg-2 central">
+				<a href="#contact">
+					<span class="glyphicon glyphicon-user head-image black img-rounded"></span>
+					<h2 class="head-image-text">Contact</h2>
+				</a>
+			</div>
+		</div>
 
-      <header>
-        <h1>Bootstrap-cv</h1>
-        <p>A simple CV made with Twitter Bootstrap.</p>
-      </header>
+		<section id="summary" class="">
+			<div class="container">
+				<div class="summary">
+					<h2 class="heading">Profile</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Aenean at mauris metus. 
+						Duis interdum magna sit amet orci euismod id elementum metus posuere. 
+						Nam at augue quam, sit amet tristique tellus. 
+						Nunc enim eros, imperdiet ultrices rhoncus non, scelerisque vel justo. 
+						Quisque convallis aliquam tincidunt. 
+						Aenean nec lectus blandit lectus pellentesque posuere eget id nisl. 
+						Praesent at neque libero. 
+						Phasellus feugiat elementum arcu, non faucibus elit sodales nec. 
+						Quisque convallis aliquam tincidunt. 
+						Aenean nec lectus blandit lectus pellentesque posuere eget id nisl. 
+						Mauris consectetur varius dui nec sollicitudin. Donec a enim justo. 
+						Proin nec convallis tellus. Praesent at neque libero. 
+						Phasellus feugiat elementum arcu, non faucibus elit sodales nec.
+					</p>
+					<p>
+						<span class="glyphicon glyphicon-star"></span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</p>
+					<p>
+						<span class="glyphicon glyphicon-star"></span> Nunc enim eros, imperdiet ultrices rhoncus non, scelerisque vel justo.
+					</p>
+					<p>
+						<span class="glyphicon glyphicon-star"></span> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+					</p>
+					<p>
+						<span class="glyphicon glyphicon-star"></span> Nunc enim eros, imperdiet ultrices rhoncus non, scelerisque vel justo.
+					</p>
+				</div>
+			</div>
+		</section>
 
-      <div id="banner">
-        <span id="logo"></span>
+		<section id="education" class="education">
+			<div class="container">
+				<div class="summary">
+					<h2 class="heading">Education</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
+						Aenean at mauris metus. 
+						Duis interdum magna sit amet orci euismod id elementum metus posuere. 
+						Nam at augue quam, sit amet tristique tellus. 
+						Nunc enim eros, imperdiet ultrices rhoncus non, scelerisque vel justo. 
+						Quisque convallis aliquam tincidunt. 
+						Aenean nec lectus blandit lectus pellentesque posuere eget id nisl. 
+					</p>
+					<ul class="list-unstyled">
+						<li>
+							<h3 class="ed-title">
+								Master degree <span class="grade" data-toggle="tooltip" title="First Class">
+									<div class="progress grade-progress-bar">
+										<div class="progress-bar progress-bar-success"
+											role="progressbar" aria-valuenow="78" aria-valuemin="0"
+											aria-valuemax="100" style="width: 78%">
+											78%
+										</div>
+									</div></span>
+							</h3>
+							<p>Institute for masters - 2010</p></li>
+						<li>
+							<h3 class="ed-title">
+								Bachelor degree <span class="grade" data-toggle="tooltip" title="Second Class">
+									<div class="progress grade-progress-bar">
+										<div class="progress-bar progress-bar-warning"
+											role="progressbar" aria-valuenow="58" aria-valuemin="0"
+											aria-valuemax="100" style="width: 58%">
+											58%
+										</div>
+									</div></span>
+							</h3>
+							<p>Institute for Bachelors - 2006</p></li>
+						<li>
+							<h3 class="ed-title">
+								Bachelor degree <span class="grade" data-toggle="tooltip" title="First Class">
+									<div class="progress grade-progress-bar">
+										<div class="progress-bar progress-bar-success"
+											role="progressbar" aria-valuenow="87" aria-valuemin="0"
+											aria-valuemax="100" style="width: 87%">
+											87%
+										</div>
+									</div></span>
+							</h3>
+							<p>Institute for Bachelors - 2002</p></li>
+					</ul>
+				</div>
+			</div>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-6">
+						<div class="summary">
+							<h2 class="heading">Trannings</h2>
+							<ul class="list-unstyled">
+								<li><span class="glyphicon glyphicon-bookmark tickmark"></span>
+									Took training in Something 
+									<span class="edu-stars">
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+									</span>
+									<br /> 
+									<i class="edu-date">from Institute on 22 Feb 2012</i>
+								</li>
+								<li><span class="glyphicon glyphicon-bookmark tickmark"></span>
+									Took training in Something 
+									<span class="edu-stars">
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+									</span>
+									<br /> 
+									<i class="edu-date">from Institute on 22 Feb 2012</i>
+								</li>
+								<li><span class="glyphicon glyphicon-bookmark tickmark"></span>
+									Took training in Something 
+									<span class="edu-stars">
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+									</span>
+									<br /> 
+									<i class="edu-date">from Institute on 22 Feb 2012</i>
+								</li>
+								<li><span class="glyphicon glyphicon-bookmark tickmark"></span>
+									Took training in Something 
+									<span class="edu-stars">
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+									</span>
+									<br /> 
+									<i class="edu-date">from Institute on 22 Feb 2012</i>
+								</li>
+								<li><span class="glyphicon glyphicon-bookmark tickmark"></span>
+									Took training in Something 
+									<span class="edu-stars">
+										<span class="glyphicon glyphicon-star"></span>
+									</span>
+									<br /> 
+									<i class="edu-date">from Institute on 22 Feb 2012</i>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-lg-6">
+						<div class="summary">
+							<h2 class="heading">Certificates</h2>
+							<ul class="list-unstyled">
+								<li><span class="glyphicon glyphicon-ok tickmark"></span>
+									Certified in Something 
+									<span class="edu-stars">
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+									</span>
+									<br /> 
+									<i class="edu-date">from Authority on 22 Feb 2012</i>
+								</li>
+								<li><span class="glyphicon glyphicon-ok tickmark"></span>
+									Certified in Something 
+									<span class="edu-stars">
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+									</span>
+									<br /> 
+									<i class="edu-date">from Authority on 22 Feb 2012</i>
+								</li>
+								<li><span class="glyphicon glyphicon-ok tickmark"></span>
+									Certified in Something 
+									<span class="edu-stars">
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+									</span>
+									<br /> 
+									<i class="edu-date">from Authority on 22 Feb 2012</i>
+								</li>
+								<li><span class="glyphicon glyphicon-ok tickmark"></span>
+									Certified in Something 
+									<span class="edu-stars">
+										<span class="glyphicon glyphicon-star"></span>
+										<span class="glyphicon glyphicon-star"></span>
+									</span>
+									<br /> 
+									<i class="edu-date">from Authority on 22 Feb 2012</i>
+								</li>
+								<li><span class="glyphicon glyphicon-ok tickmark"></span>
+									Certified in Something 
+									<span class="edu-stars">
+										<span class="glyphicon glyphicon-star"></span>
+									</span>
+									<br /> 
+									<i class="edu-date">from Authority on 22 Feb 2012</i>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-        <a href="https://github.com/harryjoy/bootstrap-cv" class="button fork"><strong>View On GitHub</strong></a>
-        <div class="downloads">
-          <span>Downloads:</span>
-          <ul>
-            <li><a href="https://github.com/harryjoy/bootstrap-cv/zipball/master" class="button">ZIP</a></li>
-            <li><a href="https://github.com/harryjoy/bootstrap-cv/tarball/master" class="button">TAR</a></li>
-          </ul>
-        </div>
-      </div><!-- end banner -->
+		<section id="work" class="work">
+			<div class="container">
+				<div class="summary">
+					<h2 class="heading">Work</h2>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="work-summary-box">
+								<h4 class="ed-title">Product Manager <span class="right-side label label-warning">Current</span></h4>
+								<p>MyOwnDummyCompany Inc.<br/>July 2013 - present</p>
+							</div>
+						</div>
+						<div class="col-md-9">
+							<div class="work-desc-box">
+								<p>Lorem ipsum dolor sit amet, vix id bonorum tacimates, equidem petentium duo ut, usu illud feugait tincidunt ea. 
+								Ex vitae deleniti cotidieque has. Vim ne odio constituam. 
+								Harum alterum praesent ad vix, ei verterem lucilius sapientem vix. Nec ad explicari accommodare, veniam saperet pri id.</p>
+								<p>Cu vidit consetetur quo, accusata splendide ullamcorper his cu. Et cibo eruditi saperet vis, te per quot integre ponderum. 
+								His posidonium <kbd>disputationi id</kbd>, ex amet porro oporteat pri. 
+								Graecis oporteat id mei, ei commodo accusata molestiae pro.</p>
+								<p>Sed ei falli scripta fastidii, tritani admodum vix ei, in sea sensibus sapientem.</p>
+								<p>Lorem ipsum dolor sit amet, vix id bonorum tacimates, equidem petentium duo ut, usu illud feugait tincidunt ea.</p>
+								<p>Cu vidit consetetur quo, accusata splendide ullamcorper his cu. 
+								Et cibo eruditi saperet vis, te per quot integre ponderum.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="work-summary-box">
+								<h4 class="ed-title">Team lead</h4>
+								<p>MyOwnDummyCompany Inc.<br/>Feb 2010 - July 2013</p>
+							</div>
+						</div>
+						<div class="col-md-9">
+							<div class="work-desc-box">
+								<p>Eos augue quidam ocurreret at, etiam graeci putent ut vix. Mea ad dictas atomorum, eum at partiendo hendrerit similique. 
+								Sit ex audiam option quaerendum, sit no tale scripta quaeque. 
+								Invenire dissentias ei has, mel autem utinam appetere an, vim in expetenda elaboraret inciderint. 
+								<strong>Eam timeam reprehendunt</strong> et, eum cibo repudiandae ad.</p>
+								<p>Sed ei falli scripta fastidii, tritani admodum vix ei, in sea sensibus sapientem.</p>
+								<p>Lorem ipsum dolor sit amet, vix id bonorum tacimates, equidem petentium duo ut, usu illud feugait tincidunt ea.</p>
+								<p>Cu vidit consetetur quo, accusata splendide ullamcorper his cu. 
+								Et cibo eruditi saperet vis, te per quot integre ponderum.</p>
+							</div>
+						</div>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="work-summary-box">
+								<h4 class="ed-title">No Buddy</h4>
+								<p>MyOwnDummyCompany Inc.<br/>July 2000 - Feb 2010</p>
+							</div>
+						</div>
+						<div class="col-md-9">
+							<div class="work-desc-box">
+								<p>Sed ei falli scripta fastidii, tritani admodum vix ei, in sea sensibus sapientem.</p>
+								<p>Cu vidit consetetur <em>quo</em>, accusata splendide ullamcorper his cu.</p> 
+								<p>Et cibo eruditi saperet vis, te per quot integre ponderum.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-    <div class="wrapper">
-      <nav>
-        <ul></ul>
-      </nav>
-      <section>
-        <h1>
-<a name="bootstrap-cv" class="anchor" href="#bootstrap-cv"><span class="octicon octicon-link"></span></a>bootstrap-cv</h1>
+		<section id="skills" class="skills">
+			<div class="container">
+				<div class="summary">
+					<h2 class="heading">Skills</h2>
+					<div class="row">
+						<div class="col-lg-4">
+							<canvas id="website-circle" class="guage-canvas"></canvas>
+							<p class="gauge-value-text">90</p>
+							<div class="panel panel-warning">
+								<div class="panel-heading">
+									<h3 class="panel-title">Website building</h3>
+								</div>
+								<div class="panel-body">
+									<p>Sed ei falli scripta fastidii, tritani admodum vix ei, in sea sensibus sapientem.</p>
+									Some of work in category:
+								</div>
+								<!-- Table -->
+								<table class="table table-striped skills-table">
+									<tr>
+										<th>My Site</th>
+										<td><a href="#">www.mysite.com</a></td>
+									</tr>
+									<tr>
+										<th>My Site</th>
+										<td><a href="#">www.mysite.com</a></td>
+									</tr>
+									<tr>
+										<th>My Site</th>
+										<td><a href="#">www.mysite.com</a></td>
+									</tr>
+									<tr>
+										<th>My Site</th>
+										<td><a href="#">www.mysite.com</a></td>
+									</tr>
+									<tr>
+										<th>My Site</th>
+										<td><a href="#">www.mysite.com</a></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<canvas id="photoshop-circle" class="guage-canvas"></canvas>
+							<p class="gauge-value-text">80</p>
+							<div class="panel panel-success">
+								<div class="panel-heading">
+									<h3 class="panel-title">Photoshop</h3>
+								</div>
+								<div class="panel-body">
+									<p>Sed ei falli scripta fastidii, tritani admodum vix ei, in sea sensibus sapientem.</p>
+									Some of work in category:
+								</div>
+								<!-- Table -->
+								<table class="table table-striped skills-table">
+									<tr>
+										<th>My Site</th>
+										<td><a href="#">www.mysite.com</a></td>
+									</tr>
+									<tr>
+										<th>My Site</th>
+										<td><a href="#">www.mysite.com</a></td>
+									</tr>
+									<tr>
+										<th>My Site</th>
+										<td><a href="#">www.mysite.com</a></td>
+									</tr>
+									<tr>
+										<th>My Site</th>
+										<td><a href="#">www.mysite.com</a></td>
+									</tr>
+									<tr>
+										<th>My Site</th>
+										<td><a href="#">www.mysite.com</a></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+						<div class="col-lg-4">
+							<canvas id="other-circle" class="guage-canvas"></canvas>
+							<p class="gauge-value-text">85</p>
+							<div class="panel panel-info">
+								<div class="panel-heading">
+									<h3 class="panel-title">Other</h3>
+								</div>
+								<div class="panel-body">
+									<p>Sed ei falli scripta fastidii, tritani admodum vix ei, in sea sensibus sapientem.</p>
+									Some of work in category:
+								</div>
+								<!-- Table -->
+								<table class="table table-striped skills-table">
+									<tr>
+										<th>My Site</th>
+										<td><a href="#">www.mysite.com</a></td>
+									</tr>
+									<tr>
+										<th>My Site</th>
+										<td><a href="#">www.mysite.com</a></td>
+									</tr>
+									<tr>
+										<th>My Site</th>
+										<td><a href="#">www.mysite.com</a></td>
+									</tr>
+									<tr>
+										<th>My Site</th>
+										<td><a href="#">www.mysite.com</a></td>
+									</tr>
+									<tr>
+										<th>My Site</th>
+										<td><a href="#">www.mysite.com</a></td>
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
-<p>A simple CV made with Twitter Bootstrap.</p>
-      </section>
-      <footer>
-        <p>Project maintained by <a href="https://github.com/harryjoy">harryjoy</a></p>
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://twitter.com/michigangraham">mattgraham</a></small></p>
-      </footer>
-    </div>
-    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
-  </body>
+		<section id="note-worthy" class="note-worthy">
+			<div class="container">
+				<div class="summary">
+					<h2 class="heading">Extra</h2>
+					<p>Some extra cool things about my self.</p>
+					<p>
+						Eos augue quidam ocurreret at, etiam graeci putent ut vix. 
+						Mea ad dictas atomorum, eum at partiendo hendrerit similique. 
+						Sit ex audiam option quaerendum, sit no tale scripta quaeque. 
+						Invenire dissentias ei has, mel autem utinam appetere an, vim in expetenda elaboraret inciderint. 
+						Eam timeam reprehendunt et, eum cibo repudiandae ad.
+					</p>
+					<p>
+						<span class="glyphicon glyphicon-star"></span> Pertinax eleifend abhorreant eos ex, cu sed oblique periculis, his simul posidonium eu.
+					</p>
+					<p>
+						<span class="glyphicon glyphicon-star"></span> Facilisis efficiantur quo ea, et aliquip accumsan phaedrum eam.
+					</p>
+					<p>
+						<span class="glyphicon glyphicon-star"></span> Eos eu paulo corpora, pro simul audire dolores in.
+					</p>
+					<p>
+						<span class="glyphicon glyphicon-star"></span> At has cetero impedit.
+					</p>
+				</div>
+			</div>
+		</section>
+		
+		<section id="blogs" class="blogs">
+			<div class="container">
+				<div class="summary">
+					<h2 class="heading">Blogs</h2>
+					<div class="col-lg-4 blog-body">
+						<h2 class="blog-header">My First Post</h2>
+						<img class="img thumbnail blog-img" src="images/blg-first.png"
+							alt="My First Post">
+						<p class="blog-details">
+							<span class="glyphicon glyphicon-calendar"></span> January 31, 2014 &nbsp;&nbsp;&nbsp;<span
+								class="glyphicon glyphicon-comment"></span> 1 &nbsp;&nbsp;&nbsp;<span
+								class="glyphicon glyphicon-thumbs-up"></span> 7
+						</p>
+						<div class="blog-summary">
+							<p>Pertinax eleifend abhorreant eos ex, cu sed oblique periculis, his simul posidonium eu.</p>
+							<p>
+								Eos augue quidam ocurreret at, etiam graeci putent ut vix. 
+								Mea ad dictas atomorum, eum at partiendo hendrerit similique. 
+								Sit ex audiam option quaerendum, sit no tale scripta quaeque. 
+								Invenire dissentias ei has, mel autem utinam appetere an, vim in expetenda elaboraret inciderint. 
+								Eam timeam reprehendunt et, eum cibo repudiandae ad.
+							</p>
+							<p class="blog-read-more">
+								<a class="btn btn-small btn-danger" href="#" role="button">Read More &raquo;</a>
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4 blog-body">
+						<h2 class="blog-header">My Second Post</h2>
+						<img class="img thumbnail blog-img" src="images/blg-second.png"
+							alt="My Second Post">
+						<p class="blog-details">
+							<span class="glyphicon glyphicon-calendar"></span> January 23, 2014 &nbsp;&nbsp;&nbsp;<span
+								class="glyphicon glyphicon-comment"></span> 4 &nbsp;&nbsp;&nbsp;<span
+								class="glyphicon glyphicon-thumbs-up"></span> 4
+						</p>
+						<div class="blog-summary">
+							<p>Pertinax eleifend abhorreant eos ex, cu sed oblique periculis, his simul posidonium eu.</p>
+							<p>
+								Eos augue quidam ocurreret at, etiam graeci putent ut vix. 
+								Mea ad dictas atomorum, eum at partiendo hendrerit similique. 
+								Sit ex audiam option quaerendum, sit no tale scripta quaeque. 
+								Invenire dissentias ei has, mel autem utinam appetere an, vim in expetenda elaboraret inciderint. 
+								Eam timeam reprehendunt et, eum cibo repudiandae ad.
+							</p>
+							<p class="blog-read-more">
+								<a class="btn btn-small btn-danger" href="#" role="button">Read More &raquo;</a>
+							</p>
+						</div>
+					</div>
+					<div class="col-lg-4 blog-body">
+						<h2 class="blog-header">My Third Post</h2>
+						<img class="img thumbnail blog-img" src="images/blg-first.png"
+							alt="My Third Post">
+						<p class="blog-details">
+							<span class="glyphicon glyphicon-calendar"></span> January 23, 2014 &nbsp;&nbsp;&nbsp;<span
+								class="glyphicon glyphicon-comment"></span> 0 &nbsp;&nbsp;&nbsp;<span
+								class="glyphicon glyphicon-thumbs-up"></span> 9
+						</p>
+						<div class="blog-summary">
+							<p>Pertinax eleifend abhorreant eos ex, cu sed oblique periculis, his simul posidonium eu.</p>
+							<p>
+								Eos augue quidam ocurreret at, etiam graeci putent ut vix. 
+								Mea ad dictas atomorum, eum at partiendo hendrerit similique. 
+								Sit ex audiam option quaerendum, sit no tale scripta quaeque. 
+								Invenire dissentias ei has, mel autem utinam appetere an, vim in expetenda elaboraret inciderint. 
+								Eam timeam reprehendunt et, eum cibo repudiandae ad.
+							</p>
+							<p class="blog-read-more">
+								<a class="btn btn-small btn-danger" href="#" role="button">Read More &raquo;</a>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="opensource" class="opensource">
+			<div class="container">
+				<div class="summary">
+					<h2 class="heading">Open Source</h2>
+					<p>
+						Eos augue quidam ocurreret at, etiam graeci putent ut vix. 
+						Mea ad dictas atomorum, eum at partiendo hendrerit similique. 
+						Sit ex audiam option quaerendum, sit no tale scripta quaeque. 
+						Invenire dissentias ei has, mel autem utinam appetere an, vim in expetenda elaboraret inciderint. 
+						Eam timeam reprehendunt et, eum cibo repudiandae ad.
+					</p>
+					<p>&nbsp;</p>
+					<div class="row">
+						<div class="col-lg-3 blog-body">
+							<h2 class="blog-header">My Open Source</h2>
+							<p class="blog-details">
+								<span class="glyphicon glyphicon-tags"></span> JS, jQuery, CSS, HTML
+							</p>
+							<div class="blog-summary">
+								<p>Invenire dissentias ei has, mel autem utinam appetere an, vim in expetenda elaboraret inciderint.</p>
+								<p class="blog-read-more">
+									<a class="btn btn-small btn-info" href="#" role="button">Know More &raquo;</a>
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3 blog-body">
+							<h2 class="blog-header">My Open Source</h2>
+							<p class="blog-details">
+								<span class="glyphicon glyphicon-tags"></span> JS, jQuery, CSS, HTML
+							</p>
+							<div class="blog-summary">
+								<p>Invenire dissentias ei has, mel autem utinam appetere an, vim in expetenda elaboraret inciderint.</p>
+								<p class="blog-read-more">
+									<a class="btn btn-small btn-info" href="#" role="button">Know More &raquo;</a>
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3 blog-body">
+							<h2 class="blog-header">My Open Source</h2>
+							<p class="blog-details">
+								<span class="glyphicon glyphicon-tags"></span> JS, jQuery, CSS, HTML
+							</p>
+							<div class="blog-summary">
+								<p>Invenire dissentias ei has, mel autem utinam appetere an, vim in expetenda elaboraret inciderint.</p>
+								<p class="blog-read-more">
+									<a class="btn btn-small btn-info" href="#" role="button">Know More &raquo;</a>
+								</p>
+							</div>
+						</div>
+						<div class="col-lg-3 blog-body">
+							<h2 class="blog-header">My Open Source</h2>
+							<p class="blog-details">
+								<span class="glyphicon glyphicon-tags"></span> JS, jQuery, CSS, HTML
+							</p>
+							<div class="blog-summary">
+								<p>Invenire dissentias ei has, mel autem utinam appetere an, vim in expetenda elaboraret inciderint.</p>
+								<p class="blog-read-more">
+									<a class="btn btn-small btn-info" href="#" role="button">Know More &raquo;</a>
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="contact" class="contact">
+			<div class="container">
+				<div class="summary">
+					<h2 class="heading">Contact Me</h2>
+					<div class="row">
+						<div class="col-lg-6">
+							<address>
+								<h2 class="blog-header">My Self</h2>
+								First line, Second line<br>
+								City, State, Country 123456<br>
+								<abbr title="Mobile">M:</abbr> +XX 000xxx0000<br>
+								<abbr title="Email">E:</abbr> <a href="mailto:#">me@mysite.com</a> / <a href="mailto:#">my@self.com</a>
+							</address>
+						</div>
+						<div class="col-lg-3">
+							
+						</div>
+						<div class="col-lg-3">
+							<h2 class="blog-header">Social</h2>
+							<div class="row">
+								<div class="col-lg-2">
+									<img class="img-circle" src="images/social/facebook.png"
+										alt="Facebook">
+								</div>
+								<div class="col-lg-2">
+									<img class="img-circle" src="images/social/twitter.png"
+										alt="Twitter">
+								</div>
+								<div class="col-lg-2">
+									<img class="img-circle" src="images/social/google-plus.png"
+										alt="Google Plus">
+								</div>
+								<div class="col-lg-2">
+									<img class="img-circle" src="images/social/pinterest.png"
+										alt="Pinterest">
+								</div>
+								<div class="col-lg-2">
+									<img class="img-circle" src="images/social/email.png"
+										alt="Email">
+								</div>
+								<div class="col-lg-2">
+									<img class="img-circle" src="images/social/rss-feeds.png"
+										alt="RSS">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="testimonials" class="testimonials">
+			<div class="container">
+				<div class="summary">
+					<h2 class="heading">Testimonials</h2>
+					<div class="row testimonial-user-row">
+						<div class="col-lg-3 testimonial-user">
+							<img src="images/user.png" alt="Agent L" class="img-circle user-image">
+							<h2>Agent L</h2>
+							<p class="testimonial-desg">Team Lead, MyOwnCompany Inc.</p>
+							<p>
+								<em>"Some cool things from Agent L.
+								Some cool things from Agent L.
+								Some cool things from Agent L."</em>
+							</p>
+						</div>
+						<div class="col-lg-3 testimonial-user">
+							<img src="images/user.png" alt="Agent P" class="img-circle user-image">
+							<h2>Agent P</h2>
+							<p class="testimonial-desg">Manager, MyOwnCompany Inc.</p>
+							<p>
+								<em>"Some cool things from Agent P.
+								Some cool things from Agent P.
+								Some cool things from Agent P."</em>
+							</p>
+						</div>
+						<div class="col-lg-3 testimonial-user">
+							<img src="images/user.png" alt="Agent J" class="img-circle user-image">
+							<h2>Agent J</h2>
+							<p class="testimonial-desg">Founder, MyOwnCompany Inc.</p>
+							<p>
+								<em>"Some cool things from Agent J.
+								Some cool things from Agent J.
+								Some cool things from Agent J."</em>
+							</p>
+						</div>
+						<div class="col-lg-3 testimonial-user">
+							<img src="images/user.png" alt="Agent K" class="img-circle user-image">
+							<h2>Agent K</h2>
+							<p class="testimonial-desg">Co-Founder, MyOwnCompany Inc.</p>
+							<p>
+								<em>"Some cool things from Agent K.
+								Some cool things from Agent K.
+								Some cool things from Agent K."</em>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+		<section id="references" class="references">
+			<div class="container">
+				<div class="summary">
+					<h2 class="heading">References</h2>
+					<div class="row reference-user-row">
+						<div class="col-lg-2 reference-user">
+							<img src="images/user.png" alt="Agent L" class="img-circle user-image">
+							<h2>Agent L</h2>
+							<p>Team Lead, MyOwnCompany Inc.</p>
+							<div class="row reference-user-row">
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/facebook.png"
+										alt="Facebook">
+								</div>
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/twitter.png"
+										alt="Twitter">
+								</div>
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/google-plus.png"
+										alt="Google Plus">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-2 reference-user">
+							<img src="images/user.png" alt="Agent P" class="img-circle user-image">
+							<h2>Agent P</h2>
+							<p>CEO, MyOwnCompany Inc.</p>
+							<div class="row reference-user-row">
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/facebook.png"
+										alt="Facebook">
+								</div>
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/twitter.png"
+										alt="Twitter">
+								</div>
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/google-plus.png"
+										alt="Google Plus">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-2 reference-user">
+							<img src="images/user.png" alt="Agent J" class="img-circle user-image">
+							<h2>Agent J</h2>
+							<p>Project Lead, MyOwnCompany Inc.</p>
+							<div class="row reference-user-row">
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/facebook.png"
+										alt="Facebook">
+								</div>
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/twitter.png"
+										alt="Twitter">
+								</div>
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/google-plus.png"
+										alt="Google Plus">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-2 reference-user">
+							<img src="images/user.png" alt="Agent K" class="img-circle user-image">
+							<h2>Agent K</h2>
+							<p>Manager, MyOwnCompany Inc.</p>
+							<div class="row reference-user-row">
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/facebook.png"
+										alt="Facebook">
+								</div>
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/twitter.png"
+										alt="Twitter">
+								</div>
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/google-plus.png"
+										alt="Google Plus">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-2 reference-user">
+							<img src="images/user.png" alt="Agent C" class="img-circle user-image">
+							<h2>Agent C</h2>
+							<p>Founder, MyOwnCompany Inc.</p>
+							<div class="row reference-user-row">
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/facebook.png"
+										alt="Facebook">
+								</div>
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/twitter.png"
+										alt="Twitter">
+								</div>
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/google-plus.png"
+										alt="Google Plus">
+								</div>
+							</div>
+						</div>
+						<div class="col-lg-2 reference-user">
+							<img src="images/user.png" alt="Agent F" class="img-circle user-image">
+							<h2>Agent F</h2>
+							<p>Co-Founder, MyOwnCompany Inc.</p>
+							<div class="row reference-user-row">
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/facebook.png"
+										alt="Facebook">
+								</div>
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/twitter.png"
+										alt="Twitter">
+								</div>
+								<div class="col-lg-4">
+									<img class="img-circle" src="images/social/google-plus.png"
+										alt="Google Plus">
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	<div id="footer">
+		<div class="container">
+			<p class="text-muted">
+				Be happy :)
+			</p>
+			<a id="toTop" class="back-to-top" href="#main"><span class="glyphicon glyphicon-arrow-up"></span></a>
+		</div>
+	</div>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+	<script src="javascripts/bootstrap.min.js"></script>
+	<script src="javascripts/jquery.scrollTo.min.js"></script>
+	<script src="javascripts/jquery.localScroll.min.js"></script>
+	<script src="javascripts/scrollspy.js"></script>
+	<script src="javascripts/tooltip.js"></script>
+	<script src="javascripts/gauge.min.js"></script>
+	<script src="javascripts/main.js"></script>
+</body>
 </html>

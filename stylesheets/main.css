@@ -1,0 +1,337 @@
+body {
+	font-family: 'Gabriela', serif;
+}
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+#footer {
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
+  background-color: #f5f5f5;
+  margin-top: 30px;
+}
+
+body > .container {
+  padding: 30px 15px 0px;
+}
+.container .text-muted {
+  margin: 20px 0;
+}
+
+#footer > .container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+code {
+  font-size: 80%;
+}
+
+/* Pad the edges of the mobile views a bit */
+.marketing {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Center align the text within the three columns below the carousel */
+.marketing .central {
+  margin-bottom: 20px;
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .central p {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+.marketing .central a:hover {
+  text-decoration: none;
+}
+
+.featurette-divider {
+}
+
+/* Thin out the marketing headings */
+.featurette-heading {
+  font-weight: 300;
+  line-height: 1;
+  letter-spacing: -1px;
+}
+
+
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (min-width: 768px) {
+
+  /* Remove the edge padding needed for mobile */
+  .marketing {
+    padding-right: 0;
+    padding-left: 0;
+  }
+
+  /* Navbar positioning foo */
+  .navbar-wrapper {
+    margin-top: 20px;
+  }
+  .navbar-wrapper .container {
+    padding-right: 15px;
+    padding-left:  15px;
+  }
+  .navbar-wrapper .navbar {
+    padding-right: 0;
+    padding-left:  0;
+  }
+
+  /* The navbar becomes detached from the top, so we round the corners */
+  .navbar-wrapper .navbar {
+    border-radius: 4px;
+  }
+
+  /* Bump up size of carousel content */
+  .carousel-caption p {
+    margin-bottom: 20px;
+    font-size: 21px;
+    line-height: 1.4;
+  }
+
+  .featurette-heading {
+    font-size: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  .featurette-heading {
+  }
+}
+/*--------------------------------*/
+
+.my-image {
+	width: 140px;
+	height: 140px;
+	float: left;
+	margin-top: 25px;
+	margin-right: 15px;
+}
+.headers-row {
+	padding-top: 30px;
+	background: #f6f6f6;
+}
+.heading {
+	margin: 0 0 20px;
+	padding: 0 0 10px;
+	font-size: 24px;
+	line-height: 24px;
+	border-bottom: 1px solid #929292;
+	color: #929292;
+}
+.summary {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.ed-title {
+	margin: 0;
+	font-size: 18px;
+	line-height: 24px;
+	font-style: italic;
+	color: #555;
+}
+.grade {
+	float: right;
+	font-size: 10px;
+	color: #333;
+	width: 250px;
+}
+.grade-progress-bar {
+	width: 250px;
+	height: 18px;
+	margin-top: 15px;
+}
+
+.work-summary-box {
+	margin-top: 15px;
+}
+.work-desc-box {
+	border-left: 2px solid #f0ad4e;	
+	padding-left: 20px;
+	margin-top: 15px;
+}
+.right-side {
+	float: right;
+	margin-top: 5px;
+	font-size: 11px;
+	font-weight: normal;
+}
+.skills-heading {
+	font-size: 20px;
+	line-height: 20px;
+	border-bottom: 1px dotted #A2A2A2;
+}
+.skills-table {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.skill-learning {
+	color: #3c763d;
+}
+.skills-sub-headers {
+	font-size: 15px;
+	line-height: 15px;
+}
+.blog-body {
+	text-align: center;
+	padding-left: 0;
+	padding-right: 10px;
+}
+.blog-header {
+	font-size: 25px;
+	line-height: 25px;
+	color: #727272;
+	margin: 0 0 15px 0;
+}
+.blog-details {
+	margin-top: 10px;
+	border-bottom: 1px solid #ccc;
+	border-top: 1px solid #ccc;
+	padding: 5px;
+	width: 100%;
+	font-style: italic;
+	font-size: 11px;
+}
+.blog-img {
+	width: 375px;
+	height: 250px;
+}
+.blog-summary {
+	text-align: left;
+	color: #555;
+	font-size: 12px;
+	position: relative;
+}
+.blog-read-more {
+	position: absolute;
+	right: 0px;
+}
+.blog-read-more a {
+	font-size: 9px;
+	padding: 3px 5px;
+}
+.opensource {
+	margin-top: 50px;
+}
+.head-image {
+	border: 1px solid #CCCCCC;
+	background: #F6F6F6;
+	font-size: 75px;
+	padding: 10px;
+}
+.head-image-text {
+	font-size: 20px;
+}
+section {
+	padding-top: 15px;
+}
+.tickmark {
+	color: #aaa;
+	font-size: 10px;
+}
+.edu-date {
+	font-size: 11px;
+	margin-left: 15px;
+}
+.edu-stars {
+	float: right;
+	color: #f0ad4e;
+}
+.blue {
+	color: #ffffff;
+	background: #428bca;
+}
+.light-blue {
+	color: #ffffff;
+	background: #5bc0de;
+}
+.yellow {
+	color: #ffffff;
+	background: #f0ad4e;
+}
+.green {
+	color: #ffffff;
+	background: #5cb85c;
+}
+.black {
+	color: #ffffff;
+	background: #000000;
+}
+.purple {
+	color: #ffffff;
+	background: #6f5499;
+}
+.main-header {
+	background: #d9534f;
+	color: #fff;
+	padding-bottom: 15px;
+}
+.guage-canvas {
+	margin-bottom: 10px;
+}
+.gauge-value-text {
+	color: #727272;
+	position: absolute;
+	left: 135px;
+	top: 40px;
+	font-size: 50px;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 1em;
+    right: 10px;
+    text-decoration: none;
+    color: #727272;
+    background-color: #f5f5f5;
+    border: 1px solid #FFFFFF;
+    font-size: 12px;
+    padding: 1em;
+    display: none;
+}
+.back-to-top:hover {    
+    background-color: #efefef;
+}
+.testimonial-user, .reference-user {
+	text-align: center;
+	border: 1px dotted #EEE;
+	padding: 10px;
+}
+.testimonial-user:hover, .reference-user:hover {
+	border: 1px solid #AAA;
+	padding: 15px;
+	bottom: 5px;
+}
+.testimonial-user-row, .reference-user-row {
+	margin-left: 0px;
+	margin-right: 0px;
+}
+.testimonial-user img.user-image {
+	width: 256px;
+	height: 256px;
+}
+.testimonial-user h2, .reference-user h2 {
+	color: #727272;
+	margin-top: 0px;
+}
+.reference-user img.user-image {
+	width: 128px;
+	height: 128px;
+}
+.reference-user h2 {
+	font-size: 20px;
+}
+.testimonial-desg {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+}
