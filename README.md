@@ -1,11 +1,10 @@
-bootstrap-cv
-============
+# bootstrap-cv
 
-A simple CV made with Twitter Bootstrap.
+A simple CV made with Twitter Bootstrap - also my first project with bootstrap.
 
-============
+## What It's Using
 
-## Made using followings:
+### Base Technologies
 
  * [Twitter Bootstrap](http://getbootstrap.com/)
  * [gauge.js](http://bernii.github.io/gauge.js/)
@@ -14,6 +13,6 @@ A simple CV made with Twitter Bootstrap.
  * tooltip.js
  * IconFinder ( Social icons by - [Mohamed A. Elgharabawy](http://itscoding.com) =&= user icon by - [Visual Pharm](http://icons8.com/) =&= GitHub icons by - Neil Hainsworth & Muhamad Ulum)
 
-## Demo
+## Credits
+Forked from [harryjoy/bootstrap-cv](https://github.com/harryjoy/bootstrap-cv)
 
-[Click Here](http://harryjoy.github.io/bootstrap-cv/)
