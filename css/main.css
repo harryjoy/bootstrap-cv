@@ -1,5 +1,5 @@
 body {
-	font-family: 'Gabriela', serif;
+	font-family: 'Arial', serif;
 }
 .starter-template {
   padding: 40px 15px;
@@ -157,7 +157,7 @@ code {
 	margin-top: 15px;
 }
 .work-desc-box {
-	border-left: 2px solid #f0ad4e;	
+	border-left: 2px solid #f0ad4e;
 	padding-left: 20px;
 	margin-top: 15px;
 }
@@ -299,7 +299,7 @@ section {
     padding: 1em;
     display: none;
 }
-.back-to-top:hover {    
+.back-to-top:hover {
     background-color: #efefef;
 }
 .testimonial-user, .reference-user {
